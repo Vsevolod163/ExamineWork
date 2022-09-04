@@ -28,7 +28,7 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
-string[] array = {"hello", "1", "mn.", "world", "ppp"};
+string[] array = {"hello", "2", "world", ":-)"};
 
 string[] newArray = RemoveElementsBiggerThan3Symbols(array);
 PrintArray(newArray);
